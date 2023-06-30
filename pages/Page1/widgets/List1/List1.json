@@ -4,7 +4,7 @@
     "isCanvas": true,
     "iconSVG": "/static/media/icon.35f3ec19dbc201b2b26e900b1eeb08a0.svg",
     "topRow": 248,
-    "pageSize": 3,
+    "pageSize": 2,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
     "animateLoading": true,
@@ -17,14 +17,14 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 3,
     "enhancements": true,
     "children": [{
         "mobileBottomRow": 400,
         "widgetName": "Canvas10",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 400,
+        "bottomRow": 280,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -61,7 +61,7 @@
     "isLoading": false,
     "mainCanvasId": "3kau3hun4a",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 288,
+    "originalBottomRow": 276,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -72,25 +72,9 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": [
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Blue",
-            "id": "001"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Green",
-            "id": "002"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Red",
-            "id": "003"
-        }
-    ],
+    "listData": "[\n  {\n    \"id\": \"001\",\n    \"name\": \"Blue\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"002\",\n    \"name\": \"Green\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  }\n]",
     "displayName": "List",
-    "bottomRow": 288,
+    "bottomRow": 276,
     "parentRowSpace": 10,
     "hideCard": false,
     "templateBottomRow": 16,
@@ -98,11 +82,12 @@
     "mainContainerId": "crfyunb2d1",
     "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
     "parentColumnSpace": 12.578125,
+    "dynamicTriggerPathList": [],
     "gridType": "vertical",
     "key": "gl1g1siwvp",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 40,
+    "rightColumn": 43,
     "widgetId": "pvhta6ed1f",
     "minWidth": 450,
     "parentId": "0",
