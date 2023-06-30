@@ -11,11 +11,12 @@
         "notification"
     ],
     "topRow": 5,
-    "bottomRow": 245,
+    "bottomRow": 24,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
+    "minHeight": 240,
     "mobileRightColumn": 49,
     "animateLoading": true,
     "parentColumnSpace": 4.404296875,
