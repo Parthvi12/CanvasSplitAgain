@@ -20,7 +20,7 @@
     "mobileRightColumn": 39,
     "animateLoading": true,
     "parentColumnSpace": 12.578125,
-    "leftColumn": 15,
+    "leftColumn": 30,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -62,7 +62,7 @@
     "key": "rk43go4c0h",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 39,
+    "rightColumn": 54,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "382ets51cv",
     "containerStyle": "card",
