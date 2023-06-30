@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 33,
-    "bottomRow": 37,
+    "topRow": 264,
+    "bottomRow": 268,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 46,
@@ -32,14 +32,16 @@
     "isVisible": true,
     "recaptchaType": "V3",
     "version": 1,
-    "parentId": "6u1swcyosr",
+    "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
+    "originalTopRow": 264,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 30,
+    "originalBottomRow": 268,
     "buttonVariant": "SECONDARY",
     "placement": "CENTER"
 }
